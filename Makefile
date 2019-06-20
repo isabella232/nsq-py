@@ -1,3 +1,5 @@
+include /code/containers/s2ipythonlibrary/Makefile
+
 clean:
 	# Remove the build
 	sudo rm -rf build dist
