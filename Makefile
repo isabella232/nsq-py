@@ -4,9 +4,9 @@ clean:
 	# Remove the build
 	rm -rf build dist
 	# And all of our pyc files
-	find . -name '*.pyc' | xargs -n 100 rm
+	find . -name '*.pyc' -delete
 	# And lastly, .coverage files
-	find . -name .coverage | xargs rm
+	find . -name .coverage -delete
 
 .PHONY: test
 test:
