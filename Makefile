@@ -2,7 +2,7 @@ include /code/containers/s2ipythonlibrary/Makefile
 
 clean:
 	# Remove the build
-	sudo rm -rf build dist
+	rm -rf build dist
 	# And all of our pyc files
 	find . -name '*.pyc' | xargs -n 100 rm
 	# And lastly, .coverage files
