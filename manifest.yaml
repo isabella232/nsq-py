@@ -3,7 +3,7 @@ description: nsq-py
 repository: git@github.com:lyft/nsq-py.git
 team_email: 'devnull@lyft.com'
 slack: '#devx-bots'
-credentials: true
+credentials: false
 builder:
   name: s2i
   params:
