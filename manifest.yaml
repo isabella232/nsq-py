@@ -1,6 +1,7 @@
 name: nsqpy
 description: nsq-py
 repository: git@github.com:lyft/nsq-py.git
+disabled: true
 team_email: 'devnull@lyft.com'
 slack: '#devx-bots'
 credentials: false
